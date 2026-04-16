@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        String cat= this.getSharedPreferences(datacatCache,modo_private).getString("cat","0");
+        String cat= this.getSharedPreferences(datacatCache,modo_private).getString("categoria","0");
         if ( !cat.equalsIgnoreCase("0")){
 
             if(cat.equals("Deportes")){
